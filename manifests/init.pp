@@ -7,7 +7,7 @@
 #   include vmware_fusion
 class vmware_fusion {
   package { 'VMware Fusion':
-    source   => 'h://download3.vmware.com/software/fusion/file/VMware-Fusion-6.0.2-1398658.dmg',
+    source   => 'http://download3.vmware.com/software/fusion/file/VMware-Fusion-6.0.2-1398658.dmg',
     provider => 'appdmg'
   }
 }
